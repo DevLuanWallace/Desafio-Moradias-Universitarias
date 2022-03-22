@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F4Life</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+
+    <link href="assets/F4LIFE-icon.png" rel="shortcut icon">
+
+    <script src="https://kit.fontawesome.com/9db376de1e.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@200&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <img src="assets/F4LIFE-logo-vetorizado.png" alt="logo da empresa" class="logo-empresa">
+        <nav class="navegacao-cabecalho">
+          <ul>
+            <li class="cabecalho-link"><a href="#moradias">Moradias</a></li>
+            <li class="cabecalho-link"><a href="#quemsomos">Quem Somos</a></li>
+            <li class="cabecalho-link"><a href="#faleconosco">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!--  IMAGEM PRINCIPAL  -->
+      <img src="assets/imagem-principal1.jpg" alt="Homem estudando" class="imagem-principal">
+
+      <!--  ANÚNCIO DE MORADIAS -->
+      
+
+      <h1 class="titulo-moradias" id="moradias">Moradias</h1>
+      <section class="anuncios">
+
+        <div class="moradias primeiro">
+          <h1 class="titulo-anuncio">Casas</h1>
+          <img src="assets/anuncio1.jpg" alt="Primeiro anuncio">
+          <p>A partir de R$ 599</p>
+        </div>
+        <div class="moradias segundo">
+          <h1 class="titulo-anuncio">Apartamentos</h1>
+          <img src="assets/anuncio2.jpg" alt="Segundo anúncio">
+          <p>A partir de R$ 699</p>
+        </div>
+        <div class="moradias terceiro">
+          <h1 class="titulo-anuncio">Kitnets</h1>
+          <img src="assets/anuncio3.jpg" alt="Terceiro anúncio">
+          <p>A partir de R$ 499</p>
+        </div>
+
+      </section>
+      
+      <!-- BLOCOS DE CONTEUDO -->
+      <section class="bloco">
+
+        <div class="imagens">
+          <img src="assets/imagem-main1.jpg" alt="Jovens sentados no sofa">
+        </div>
+
+        <div class="textos">
+          <h1>Aproveite a convivência</h1>
+          <p> Ao mudar de cidade, você pode chegar perdido e sem amigos. O convívio com os colegas de república ajuda a superar esse início, sendo possível criar boas amizades nesse ambiente. </p>
+
+          <div class="line"></div>
+        </div>
+
+      </section>
+
+      <section class="destaque-imagem">
+        <div>
+          <img src="assets/imagem-main2.png" alt="dormitorio estudantil">
+        </div>
+        
+        <div id="destaque-texto">
+          <h1>Temos uma ótima estrutura</h1>
+          <p> Temos quartos coletivos equipados com cama, colchão e escrivaninha. Nós proporcionamos o conforto e tranquilidade necessários para a sua graduação. As áreas comuns de cozinha e sala de estar são espaçosas e onde você poderá ampliar sua rede de contatos e compartilhar bons momentos. </p>
+
+          <div class="line"></div>
+        </div>
+        
+      </section>
+
+      <section class="bloco">
+        <div class="imagens"><img src="assets/imagem-main3.png" alt="entrada de uma universidade"></div>
+
+        <div class="textos">
+          <h1>Pertinho da sua faculdade!</h1>
+          <p> A localização é nosso diferencial! Todos os nossos cômodos ficam à menos de 2km das faculdades federais e nos principais pontos do Rio de Janeiro, com fácil acesso ao transporte público. </p>
+        
+          <div class="line"></div>
+        </div>
+
+      </section>
+      <section class="bloco reverso">
+        <div class="imagens"><img src="assets/imagem-main4.jpg" alt="cofre no formato de porco"></div>
+
+        <div class="textos">
+          <h1>Cabe no seu bolso</h1>
+          <p>Pensa em uma economia ótima! Essa é a melhor parte das nossas residências. Preços que cabem no seu bolso e te deixa tranquilo para organizar sua vida acadêmica.</p>
+        
+          <div class="line"></div>
+        </div>
+
+      </section>
+
+      <!--   QUEM SOMOS  -->
+      <section class="quemsomos">
+
+        <h1 class="titulo-principal" id="quemsomos">Quem Somos</h1>
+        <p>F4Life é uma empresa de aluguéis de repúblicas para pessoas universitárias. 
+          Similar aos modelos de Quinto Andar e Loft, 
+          a empresa realiza reformas e prepara moradias 
+          para recepção de pessoas universitárias em um ambiente específico 
+          e otimizado para a vida de graduação.</p>
+
+      </section>
+      
+      <!--  CONTATO  -->
+      <section class="contato">
+        
+        <form>
+          <p class="titulo-principal" id="faleconosco"> Fale Conosco! </p>
+
+          <label for="nome-completo">Nome Completo</label>
+          <input type="text" id="nome-completo" class="input-padrao" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" class="input-padrao" placeholder="user@email.com" required> 
+
+          <label for="mensagem"> Mensagem </label>
+				  <textarea cols="30"  rows="10" id="mensagem" class="input-padrao"></textarea>
+
+          <input onclick="validacaoForm()" type="submit" value="Enviar formulário" class="enviar">
+        </form>
+        
+        
+
+      </section>
+    </main>
+
+    <footer class="rodape">
+      <img src="assets/F4LIFE-icon.png" alt="icone do logo da F4life">
+
+      <div class="midias">
+      
+        <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>  <!-- target="_blank" abre outra aba o link -->
+        <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      
+      </div>
+      
+      <p id="copyright"> &copy; Copyright F4life - 2022. Todos os direitos reservados.</p> 
+    </footer>
+
+    <script src="script/index.js"></script>
+  </body>
+</html>
