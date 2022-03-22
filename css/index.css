@@ -9,7 +9,11 @@ html {
     scroll-behavior: smooth;           /*  suavizar rolamento da pagina  */
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300;400;500&display=swap');
+
 body {
+    font-weight: 200;
 	font-family: 'Saira Condensed', sans-serif;
 }
 
@@ -18,8 +22,7 @@ body {
 header {
     color: var(--branco);
     background-color: var(--azulescuro);
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
+    white-space: nowrap;                          /* Não quebra a palavra quando diminuir o tam da janela */
 }
 
 .container {
@@ -28,15 +31,14 @@ header {
     justify-content: space-between;
     /* alinhamento dos elementos no eixo y(vertical)*/
     align-items: center;
+    padding: 25px 90px;
 }
 
 .logo-empresa {
     width: 180px;
-    padding: 0 20vh;
 }
 
 .navegacao-cabecalho ul {
-    padding: 0 20vh;
     /* tambem organiza os elementos lado a lado */
     display: flex;
     /* separa de forma otimizada sem ocupar espaços no elemento */
@@ -283,8 +285,9 @@ form label {
 .input-padrao {										
 	display: block;
 	margin: 0 0 25px;
-	padding: 0.5rem;									
-	width: 30%;
+	padding: 0.5rem;	
+    width: 370px;								
+	
 }
 
 .enviar {

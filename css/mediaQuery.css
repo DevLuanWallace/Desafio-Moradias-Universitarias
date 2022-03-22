@@ -1,0 +1,71 @@
+@media screen and (max-width: 1440px) {    
+    .container {
+        flex-direction: column;
+    }
+
+    .navegacao-cabecalho ul {
+        margin-top: 20px;
+    }
+
+    h1#moradias {
+        text-align: center;
+    }
+
+    section.anuncios {
+        flex-wrap: wrap;
+    }
+
+    .bloco {
+        flex-direction: column;
+        height: auto;
+        margin: 50px auto;
+    }
+    .bloco p {
+        font-size: 1.4rem;
+    }
+    .bloco h1 {
+        font-size: 2.5rem;
+    }
+
+    #destaque-texto {
+        position: initial;
+        width: 60%;
+        border-radius: 0 0 20px 0;
+        
+    }
+
+    .destaque-imagem {
+        height: auto;
+
+    }
+
+    .destaque-imagem img {
+        width: 100%
+    }
+
+    .input-padrao {
+        width: 300px;
+    }
+}
+
+
+@media screen and (max-width: 830px) {
+    .imagens img {
+        width: 100%;
+    }
+
+    .cabecalho-link {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    form {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
