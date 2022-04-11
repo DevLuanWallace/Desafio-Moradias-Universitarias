@@ -20,7 +20,7 @@ function validacaoForm()
 
     // validação do e-mail
 
-    function validacaoEmail(email) 
+    function validacaoEmail(email)         
     {
         let emailUsuario = email;
         let resultado = emailUsuario.split('@');    /* split separa a string com um caracter definido e coloca em um array (sem incluir o separador) */

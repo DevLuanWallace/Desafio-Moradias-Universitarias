@@ -46,6 +46,7 @@
     .input-padrao {
         width: 300px;
     }
+
 }
 
 
@@ -56,6 +57,10 @@
 
     .cabecalho-link {
         font-size: 1.1rem;
+    }
+    
+    .enviar {
+        width: 150px;
     }
 }
 
